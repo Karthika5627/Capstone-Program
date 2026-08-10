@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Manage Reports</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="admin-dashboard.html">
+                Medical Lab Portal
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+
+    <div class="container mt-5">
+
+
+        <h2 class="text-center text-primary mb-4">
+            Manage Reports
+        </h2>
+
+
+
+
+        <!-- Reports Table -->
+
+        <div class="card shadow">
+
+
+            <div class="card-body">
+
+
+                <table class="table table-bordered table-hover">
+
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>Report ID</th>
+                            <th>Patient Name</th>
+                            <th>Test Name</th>
+                            <th>Report Date</th>
+                            <th>Status</th>
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>501</td>
+                            <td>John</td>
+                            <td>Blood Test</td>
+                            <td>12-08-2026</td>
+
+
+                            <td>
+
+                                <span class="badge bg-success">
+                                    Available
+                                </span>
+
+                            </td>
+
+
+
+                            <td>
+
+                                <a href="reports.html" class="btn btn-primary btn-sm">
+    View
+</a>
+
+
+                                <a href="upload-report.html" class="btn btn-warning btn-sm">
+    Upload
+</a>
+
+                            </td>
+
+
+                        </tr>
+
+
+
+                        <tr>
+
+                            <td>502</td>
+                            <td>Priya</td>
+                            <td>Vitamin D Test</td>
+                            <td>13-08-2026</td>
+
+
+                            <td>
+
+                                <span class="badge bg-warning text-dark">
+                                    Pending
+                                </span>
+
+                            </td>
+
+
+
+                            <td>
+
+                                <a href="reports.html" class="btn btn-primary btn-sm">
+    View
+</a>
+
+
+                                <a href="upload-report.html" class="btn btn-warning btn-sm">
+    Upload
+</a>
+
+                            </td>
+
+
+                        </tr>
+
+
+                    </tbody>
+
+
+                </table>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- Back Button -->
+
+        <div class="mt-4">
+
+            <a href="admin-dashboard.html" class="btn btn-secondary">
+                Back to Dashboard
+            </a>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
