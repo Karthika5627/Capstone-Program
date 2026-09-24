@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Reports</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+<div class="container py-5">
+
+    <h2 class="text-center text-primary mb-4">
+        📄 Lab Test Reports
+    </h2>
+
+    <div class="card shadow">
+
+        <div class="card-body">
+
+            <table class="table table-striped table-hover text-center">
+
+                <thead class="table-primary">
+
+                    <tr>
+                        <th>Report ID</th>
+                        <th>Patient Name</th>
+                        <th>Lab Test</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Report</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>R101</td>
+                        <td>Karthika</td>
+                        <td>Blood Test</td>
+                        <td>10-Aug-2026</td>
+                        <td>
+                            <span class="badge bg-success">Ready</span>
+                        </td>
+                        <td>
+                            <button class="btn btn-success">
+                                📥 Download
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>R102</td>
+                        <td>Karthika</td>
+                        <td>Sugar Test</td>
+                        <td>12-Aug-2026</td>
+                        <td>
+                            <span class="badge bg-warning text-dark">Processing</span>
+                        </td>
+                        <td>
+                            <button class="btn btn-secondary" disabled>
+                                Not Available
+                            </button>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

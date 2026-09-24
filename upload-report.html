@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Upload Report</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header bg-primary text-white text-center">
+
+            <h2>Upload Lab Report</h2>
+
+        </div>
+
+        <div class="card-body">
+
+            <form>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Patient Name
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Enter patient name">
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Test Name
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Enter test name">
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Upload Report
+                    </label>
+
+                    <input type="file"
+                           class="form-control">
+
+                </div>
+
+
+                <button type="button"
+        class="btn btn-success w-100"
+        onclick="uploadReport()">
+    Upload Report
+</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <div class="text-center mt-3">
+
+        <a href="manage-reports.html"
+           class="btn btn-secondary">
+            Back to Manage Reports
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
